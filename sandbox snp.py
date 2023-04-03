@@ -79,7 +79,7 @@ def q_f_s(lis, q):
     
 numb = [(len(data)/i) for i in Ns_range]
 
-q_range = range(-20,21)
+q_range = range(-10,11)
 
 for f in q_range:
     plt.plot(numb, q_f_s(data, f), label=f"q = {f}")
